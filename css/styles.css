@@ -1,0 +1,36 @@
+body{
+    background-color:#ffffff;
+    color: #000; ;
+}
+/* header */
+.list{
+list-style: none;
+}
+.logo{
+color:blue;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+color: #000;
+}
+.section-title{
+    color: #000;
+}
+/* HERO */
+.hero-title{
+    color: #000;
+}
+.feature-about .title{
+    color:brown;
+}
+.about-list{
+    list-style: none;
+    color: rgb(32, 238, 67);
+}
+.servis-list{
+    list-style: none;
+}
+.section-team{
+    list-style: none;
+}
+ 
