@@ -15,7 +15,7 @@ body{
     color: var(primary-text-color);
     font-family: Roboto, sans-serif;
 }
-/* header 
+ /* header  */
 .list{
     list-style: none;
     }
@@ -25,11 +25,22 @@ body{
     }
     .site-nav .link{
         color: var(--accent-color);
+       
     }
     .site-nav .link.current{
         color: var(--title-text-color);
     }
-    
+    .contacs .link{
+    text-decoration: none;   
+    }
+    /* PORTFOLIO */
+    .button-list{
+   list-style: none;     
+    }
+    .pic-items{
+   list-style: none;     
+
+    }
     
     
     .section-title{
