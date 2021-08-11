@@ -17,19 +17,25 @@ body{
     font-family: Roboto, sans-serif;
 }
  /* header  */
-.list{
-    list-style: none;
-    }
+ .icon .logo{ 
+    text-decoration: none;
+}
     .logo{
-    list-style: none;
+    
     color: var(--accent-color);
+    font-family: Raleway, sans-serif;
     }
     .logo-link{
-        color: var(--accent-color);
-        ;
+        color: var(--title-text-color) 
+        
     }
+    .list{
+        list-style: none;
+        text-decoration: none;
+        }
     .site-nav .link{
         color:#212121;
+        text-decoration: none;
 }
     .site-nav .link:hover,
     .site-nav .link:focus{   
@@ -40,7 +46,21 @@ body{
         color: var(--title-text-color);
     }
     .contacs .link{
-    text-decoration: none;   
+        font-size: 14px;
+        
+        font-weight: 500;
+        line-height: 1,14;
+        letter-spacing: 0.02em;
+        text-align: left;
+        text-decoration: none;
+        color: #757575;   
+    }
+    .contacs .link:hover,
+    .contacs .link:focus{
+    text-decoration: none;
+    color: var( --accent-color);
+     
+   
     }
     /* PORTFOLIO */
     
@@ -59,11 +79,19 @@ body{
         color:#000000;
 ;       background-color:#2196F3;
     }
-    .button-list .item{
-        
-    }
+    
+     .pic-items .title{
+         color: var(--title-text-color) ;
+         font-weight: 700;
+         font-size:18; 
+         line-height:2,0;
+         letter-spacing: 0,06;
+       
+     }   
+    
     .pic-items{
-   list-style: none;     
+   list-style: none; 
+     
 
     }
     
