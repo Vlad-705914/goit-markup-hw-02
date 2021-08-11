@@ -67,6 +67,9 @@ body{
     .button-list{
     list-style: none;
     } 
+    .button{
+        font-family: inherit;
+    }
     .item{
         cursor:pointer
     }
