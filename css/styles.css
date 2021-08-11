@@ -2,7 +2,8 @@
  :root{
     --primary-text-color:rgba 0,0,0,0,8;
     --title-text-color:#000000;
-    --accent-color:hsl(330, 90%, 52%);
+    --accent-color: #2196F3;
+    ;
     --primary-white-color:#FFFFFF;
 
 }
@@ -11,7 +12,7 @@
 
 body{
    
-    background-color: var(--primary-white-color);
+    background-color:#E5E5E5;
     color: var(primary-text-color);
     font-family: Roboto, sans-serif;
 }
@@ -23,9 +24,17 @@ body{
     list-style: none;
     color: var(--accent-color);
     }
-    .site-nav .link{
+    .logo-link{
         color: var(--accent-color);
-       
+        ;
+    }
+    .site-nav .link{
+        color:#212121;
+}
+    .site-nav .link:hover,
+    .site-nav .link:focus{   
+        
+        background-color: var(--accent-color);
     }
     .site-nav .link.current{
         color: var(--title-text-color);
@@ -34,8 +43,24 @@ body{
     text-decoration: none;   
     }
     /* PORTFOLIO */
+    
     .button-list{
-   list-style: none;     
+    list-style: none;
+    } 
+   
+    
+    .button-list .item:hover,
+    .button-list .item:focus{
+        font-weight: 500;
+        font-size: normal;
+        font-size: 16;
+        line-height: 1,6;
+        letter-spacing: 0,03;
+        color:#000000;
+;       background-color:#2196F3;
+    }
+    .button-list .item{
+        
     }
     .pic-items{
    list-style: none;     
@@ -46,118 +71,4 @@ body{
     .section-title{
         color: var(--title-text-color);
     }
-    /* HERO 
-    .hero-title{
-        color: #000;
-    }
-    .feature-about .title{
-        color:brown;
-    }
-    .about-list{
-        list-style: none;
-        color: rgb(32, 238, 67);
-    }
-    .servis-list{
-        list-style: none;
-    }
-    .section-team{
-        list-style: none;
-    }
-    /* FOOTER 
-    .footer{
-        list-style: none;
-        text-decoration: none;
-    }
-    .button
-    {
-    color: var(primary-text-color);
-    background-color: var(--primary-white-color);
-    
-    }
-    /* .button.premary{
-        color: var(--title-text-color);
-       background-color: var(--accent-color);
-       Главная кнопка
-       
-       .button.secondary{
-         color: var(--accent-color);
-         background-color: var(--title-text-color);
-    Вторичная кнопка
-       }
-    } */
-     
- /*
-:root{
-    --primary-text-color:rgba 0,0,0,0,8;
-    --title-text-color:#000000;
-    --accent-color:hsl(330, 90%, 52%);
-    --primary-white-color:blue;
-
-}
-    
-
-body{
-    background-color:#ffffff;
-    color: var(primary-text-color);
-}
-/* header 
-.list{
-list-style: none;
-}
-.logo{
-list-style: none;
-color: var(--accent-color);
-}
-.site-nav .link{
-    color: var(--accent-color);
-}
-.site-nav .link.current{
-    color: var(--title-text-color);
-}
-
-
-
-.section-title{
-    color: var(--title-text-color);
-}
-/* HERO 
-.hero-title{
-    color: #000;
-}
-.feature-about .title{
-    color:brown;
-}
-.about-list{
-    list-style: none;
-    color: rgb(32, 238, 67);
-}
-.servis-list{
-    list-style: none;
-}
-.section-team{
-    list-style: none;
-}
-/* FOOTER 
-.footer{
-    list-style: none;
-    text-decoration: none;
-}
-.button
-{
-color: var(primary-text-color);
-background-color: var(--primary-white-color);
-
-}
-
-/* .button.premary{
-    color: var(--title-text-color);
-   background-color: var(--accent-color);
-   Главная кнопка
    
-   .button.secondary{
-     color: var(--accent-color);
-     background-color: var(--title-text-color);
-Вторичная кнопка
-   }
-} */
- 
