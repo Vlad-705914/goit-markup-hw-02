@@ -38,7 +38,7 @@ body{
         text-decoration: none;
 }
     .site-nav .link:hover,
-    .site-nav .link:focus{   
+    .site-nav .link:focus{  
         
         background-color: var(--accent-color);
     }
@@ -96,7 +96,47 @@ body{
     }
     
     
-    .section-title{
+    .pic-items .item{
         color: var(--title-text-color);
-    }
-   
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+    }   
+    
+        /*FOOTER   */
+        .footer-item>.footer-list{
+            background-color: #000;
+        }
+        
+        .logotype .logo{
+        color:  var(--accent-color);
+        text-decoration: none;
+        }
+        .logotype .logo-link{
+    
+    color: var(--primary-white-color);
+        }
+
+        .footer-list .link{
+        text-decoration: none;
+        color: #FFFFFF;
+        
+        font-size: 14px;
+        line-height: 1,7;
+        letter-spacing: 0.03em;
+        text-align: left;
+
+        }
+    .footer-list{
+     list-style: none; 
+     background: #E5E5E5
+
+    }  
+    .footer-list .link:hover,
+    .footer-list .link:focus{
+    background-color: var(--accent-color);
+    }    
+        
+       
+    
+ 
