@@ -3,7 +3,8 @@
     --primary-text-color:rgba 0,0,0,0,8;
     --title-text-color:#000000;
     --accent-color: #2196F3;
-    
+    --secondary-color: #757575;
+
     --primary-white-color:#FFFFFF;
 
 }
@@ -75,7 +76,7 @@ body{
         line-height: 1.14;
         letter-spacing: 0.02em;
         text-align: left;
-        color: #757575;   
+        color: var(--secondary-color);   
     }
     .header-contacs .link:hover,
     .header-contacs .link:focus{
@@ -85,15 +86,14 @@ body{
     }
     /* PORTFOLIO */
     
-   /*  .button-list{
-    list-style: none;
-    }  */
+    
     .button-list .button-item{
      font-size: 16px;
      font-weight: 500;
      line-height: 1.62;
      letter-spacing: 0.03em;
      color:var(title-text-color);
+     
 
     }
     .button-item{
@@ -173,14 +173,89 @@ body{
     .footer-logo {
         color: var(--accent-color);
     }
-    .footer-logo-link{
-        color: 
-    }
+   
     .footer-list .link:hover,
     .footer-list .link:focus{
     background-color: var(--accent-color);
     }    
         
+       /* HERO */
+       .hero-section{
+        background-color:#2F303A ;
+        }
+       .head-title{
+        font-family: Roboto;
+        font-size: 44px;
        
-    
- 
+        font-weight: 900;
+        line-height:1.36;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color:#FFFFFF;
+        }
+       .button-cursor{
+        cursor: pointer;
+       } 
+       .hero-button:hover,   
+       .hero-button:focus{
+        background-color:#188CE8;
+       }
+       .hero-button{
+        
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.85;
+        letter-spacing: 0.06em;
+        text-align: center;
+        background-color:  var(--accent-color);
+        }
+        /* ABOUT */
+        .portfolio-title{
+            font-size: 14px;
+             font-weight: 700;
+            line-height: 1.14;
+            letter-spacing: 0.03em;
+            text-align: left;
+            color: var(--title-text-color);
+              }
+        .portfolio-subtitle{
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            text-align: left;
+            color: var(--secondary-color); 
+            }
+            .servis-title{
+            font-size: 36px;
+                
+            font-weight: 700;
+            line-height: 1.16;
+            letter-spacing: 0.03em;
+            text-align: center; 
+            color: var(--title-text-color);   
+        }
+            /* TEAM */
+            .team-title{
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1.16;
+            letter-spacing: 0.03em;
+            text-align: center;      
+        }
+        .present-team-list{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.18;
+            letter-spacing: 0.03em;
+            color: var(--title-text-color); 
+        }
+        .desc-team-list{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: var(--secondary-color);  
+
+
+
+        }
