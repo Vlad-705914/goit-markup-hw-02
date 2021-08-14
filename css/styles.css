@@ -13,7 +13,7 @@
 
 body{
    
-    background-color:#E5E5E5;
+    background-color:#FFFFFF;
     color: var(primary-text-color);
     font-family: Roboto, sans-serif;
 }
@@ -64,7 +64,7 @@ body{
     .header-list .link:hover,
     .header-list .link:focus{  
         
-        background-color: var(--accent-color);
+       color: var(--accent-color);
     }
         /*   
     .header-nav .link.current{
@@ -167,7 +167,7 @@ body{
         }
     .footer-list{
    
-     background: #E5E5E5
+     background-color: #E5E5E5;
 
     } 
     .footer-logo {
@@ -176,7 +176,7 @@ body{
    
     .footer-list .link:hover,
     .footer-list .link:focus{
-    background-color: var(--accent-color);
+    color: var(--accent-color);
     }    
         
        /* HERO */
@@ -192,13 +192,14 @@ body{
         letter-spacing: 0.06em;
         text-align: center;
         color:#FFFFFF;
+        text-transform: uppercase;
         }
        .button-cursor{
         cursor: pointer;
        } 
        .hero-button:hover,   
        .hero-button:focus{
-        background-color:#188CE8;
+        background-color: var(--accent-color);
        }
        .hero-button{
         
@@ -207,7 +208,7 @@ body{
         line-height: 1.85;
         letter-spacing: 0.06em;
         text-align: center;
-        background-color:  var(--accent-color);
+        background-color:#188CE8;
         }
         /* ABOUT */
         .portfolio-title{
@@ -235,6 +236,9 @@ body{
             color: var(--title-text-color);   
         }
             /* TEAM */
+            .section-team{
+                background-color:#E5E5E5
+            }
             .team-title{
             font-size: 36px;
             font-weight: 700;
