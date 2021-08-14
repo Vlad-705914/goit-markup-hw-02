@@ -88,29 +88,25 @@ body{
    /*  .button-list{
     list-style: none;
     }  */
-    .button{
+    .button-list .button-item{
      font-size: 16px;
-
      font-weight: 500;
      line-height: 1.62;
      letter-spacing: 0.03em;
-
+     color:var(title-text-color);
 
     }
-    .item{
+    .button-item{
         cursor:pointer
     }
    
     
-    .item:hover,
-    .item:focus{
-        font-weight: 500;
+    .button-item:hover,
+    .button-item:focus{
         
-        font-size: 16px;
-        line-height: 1.6;
-        letter-spacing: 0.03;
-        color:var(title-text-color);
-;       background-color: var( --accent-color);
+        
+     
+       background-color: var( --accent-color);
     }
     
     .portfolio-items .portfolio-title{
